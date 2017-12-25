@@ -17,5 +17,12 @@ while True:
         input("Press ENTER to continue . . .")
         continue
     if word[0] in upper:
-        print(word+"อยู่ข้างบน")
+        print("\n"+word+"อยู่ข้างบน")
+    elif word[0] in middle:
+        print("\n"+word+"อยู่ตรงกลาง")
+    elif word[0] in lower:
+        print("\n"+word+"อยู่ข้างล่าง")
+    else:
+        print("\n"+word+"ไม่มีอยู่ในโลก")
+        
     input("\nPress ENTER to continue . . .\n")
